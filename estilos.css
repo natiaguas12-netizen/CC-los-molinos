@@ -1,0 +1,262 @@
+.menu{
+list-style: none;
+display: flex;
+justify-content:left ;
+margin: 0;
+padding: 0;
+gap: 10px;
+background-color: rgb(252, 133, 133);
+ height: 2000;
+ width: 300;
+ border: #000000;
+}
+
+.cuadro{
+    
+    
+    margin-top: 5PX;
+   
+    margin-left: 500px;
+
+}
+.cuadro2{
+    height: 40px;
+    width: 100px;
+    
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+   background: #000000;
+background: radial-gradient(circle, rgb(253, 91, 91) 0%, rgb(255, 255, 255) 81%);
+}
+
+.navbar {
+    background-color: hwb(0 42% 3%); 
+    padding: 10PX;
+    margin-left: 500PX;
+    font-style: italic;
+
+}
+
+.menu li {
+    display: inline;
+    padding: 15px;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+   font-style: inherit;
+}
+
+.menu li a:hover {
+    background-color: hsl(0, 100%, 77%);
+}
+
+/* Estilo para el botón de servicios */
+#dropdownButton {
+    background-color: hsl(0, 100%, 71%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+#dropdownButton:hover {
+    background-color: hsl(189, 63%, 64%);
+}
+
+/* Estilo para el contenido del menú desplegable */
+#dropdownContent a {
+    display: block;
+    background-color: #050505;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#dropdownContent a:hover {
+    background-color:  hsl(189, 63%, 64%);
+}
+
+/* Estilo básico para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+/* Estilo para el botón de "Gastronomía" */
+#dropdownButton {
+    background-color: hsl(189, 63%, 64%);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para el menú desplegable */
+#dropdownContent a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+#dropdownContent {
+    margin-top: 10px;
+}
+
+/* Listado de tiendas */
+h2 {
+    margin-top: 20px;
+}
+
+footer.footer {
+    background-color: hsla(0, 100%, 79%, 0.339);
+    color: rgb(0, 0, 0);
+    padding: 40px 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    
+   
+}
+
+.footer-logo img {
+    max-width: 75%;
+    height: auto;
+}
+
+.footer-info, .footer-social,  .footer-map {
+    flex: 1 1 300px; /* hace que sea responsive */
+    margin: 10px;
+}
+
+.footer-info h3,
+.footer-social h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-social a img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.1);
+}
+
+.footer-map iframe {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 100px;
+    border: none;
+}
+
+/* Sticky al fondo si quieres que siempre esté al final */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Empuja el footer al fondo */
+}
+  .social-icons {
+    display: flex;
+    gap: 12px;
+    margin-right: 400px;
+  }
+  .social-icons a img {
+    width: 40px;  /* tamaño del ícono */
+    height: 40px;
+    transition: transform 0.2s;
+  }
+  .social-icons a img:hover {
+    transform: scale(1.1); /* efecto al pasar el mouse */
+  }
+
+  .logo {
+
+     margin-left: 1000px;
+    
+  }
+ 
+.mision{
+margin-left: 00px;
+justify-content: center;
+margin-right: 500px;
+
+width: 800px; height: 480px;
+left: -500px;
+}
+
+.vision{
+margin-left: 500px;
+justify-content: center;
+margin-right: 500px;
+
+width: 800px; height: 480px;
+}
+.video-container{
+margin-left: 500px;
+width: 800px;        /* Ancho fijo */
+height: 600px;
+position: relative;
+left: -400px;   
+}
+
+.servicios{
+margin-left: 500px;
+justify-content: center;
+margin-right: 500px;
+background-color: rgba(0, 0, 0, 0);
+width: 800px; height: 1100px;
+}
+.Tiendas{
+margin-left: 500px;
+justify-content: center;
+margin-right: 500px;
+
+}
+
+.imagen{
+  width: 500px;
+  height: 900px;  
+  margin-top: 100px;
+
+}
