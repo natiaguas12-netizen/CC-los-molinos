@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,9 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Los molinos</title>
   <link rel="stylesheet" href="estilos.css" type="text/css">
-  <link 
-  rel="stylesheet"
- href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -33,55 +32,88 @@
 
       </ul>
     </nav>
+    <!--seccion tecnologias-->
+    <section class="herramientas">
+      <h2>Herramientas utilizadas</h2>
+      <p>Para la creación de este sitio web se utilizaron las siguientes tecnologías:</p>
+
+      
+        <li>HTML5 – Estructura del sitio</li>
+        <li>CSS3 – Estilos y diseño responsivo</li>
+        <li>JavaScript – Interactividad y funciones dinámicas</li>
+        <li>Visual Studio Code – Editor de código</li>
+        <li>GitHub – Control de versiones</li>
+        <li>Google Fonts & Font Awesome – Tipografías e íconos</li>
+
+ <h2>Explicacion</h2>
+      
+
+
+        <p>Este sitio web fue desarrollado como una representación del Centro Comercial Los Molinos. Su estructura se
+          realizó con HTML5, encargándose de organizar el contenido en diferentes secciones: página principal, tiendas,
+          gastronomía, servicios, quiénes somos y tecnología.
+
+          La parte visual se diseñó con CSS3, aplicando estilos a los menús, imágenes, fondos y distribuciones para
+          darle una apariencia atractiva y responsiva. Con JavaScript se añadieron elementos interactivos y dinámicos.
+
+          Para la construcción del proyecto se utilizó Visual Studio Code como editor de código y se organizaron los
+          archivos en distintas páginas HTML enlazadas entre sí. Además, se incluyeron recursos externos como Google
+          Maps y redes sociales para complementar la información de contacto.
+
+          En general, el sitio busca ofrecer una experiencia clara y sencilla al usuario, mostrando la información
+          principal del centro comercial y destacando sus servicios y espacios de manera ordenada y visual.</p>
+    
+
+      <div class="iconos-tecno">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="60">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="60">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="JavaScript" width="60">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"
+          width="60">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"
+          width="60">
+      </div>
+    </section>
+
     <!-- 1. agregar el menu en todas las paginas
  2. colocarle titulo utilizado div para encerrar el titulo y la etiqueta titulo
  3. usando la etiqueta parrafo agregar mision y vision-->
 
-    
-
-
-</div>
 
 
 
+    </div>
 
 
- 
+
+
+
+
 
     <!-- footer o pie de pagina-->
     <!-- Contenido principal -->
-</div>
-    <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src=" C:\Users\USUARIO\Downloads\2x2x2.webp" alt="naty" height="500px"  width="2000px"></div>
-      <div class="swiper-slide"><img src="C:\Users\USUARIO\Downloads\3000px.avif  " alt="naty"height="500px"  width="2000px"></div>
-      <div class="swiper-slide"><img src="C:\Users\USUARIO\Downloads\500px.jpg" alt="naty" height="500px" width="2000px"></div>
-      <div class="swiper-slide"><img src="C:\Users\USUARIO\Downloads\2000px.jpg" alt="naty" height="500px" width="2000px"></div>
-      <div class="swiper-slide"><img src="C:\Users\USUARIO\Downloads\mln.jpg" alt="naty" height="500px" width="2000px"></div>
-      <div class="swiper-slide"><img src="C:\Users\USUARIO\Downloads\3n3n3.jpg" alt="naty" height="500px" width="2000px"></div>
     </div>
-  </div>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
- <script>
-    var swiper = new Swiper(".mySwiper", {});
-  </script>
-   
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {});
+    </script>
+
   </main>
 
   <!-- Pie de página -->
 
   <footer class=" footer">
 
-  <div class="footer- info">
-    <div class="titulos">
-    <h3>Datos de la empresa</h3>
+    <div class="footer- info">
+      <h3>Datos de la empresa</h3>
+      <p>Dirección: Cl.30A #82A-26, Medellín, Belén, Antioquia</p>
+      <p>Email: natiaguas.12@gmail.com</p>
+      <p>Teléfono: (604) 2383505</p>
     </div>
-    <p>Dirección: Cl.30A #82A-26, Medellín, Belén, Antioquia</p>
-    <p>Email: natiaguas.12@gmail.com</p>
-    <p>Teléfono: (604) 2383505</p>
-  </div>
     <!-- Estilo para los íconos -->
 
 
@@ -108,9 +140,9 @@
     </div>
 
 
-    <div class="footer-map"> 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.231566472141!2d-75.60675492418414!3d6.233175326467304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442993eeb42edd%3A0x75818b7e73dfbd5e!2sCentro%20Comercial%20Los%20Molinos!5e0!3m2!1ses-419!2sco!4v1756829033661!5m2!1ses-419!2sco"
-
+    <div class="footer-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.231566472141!2d-75.60675492418414!3d6.233175326467304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442993eeb42edd%3A0x75818b7e73dfbd5e!2sCentro%20Comercial%20Los%20Molinos!5e0!3m2!1ses-419!2sco!4v1756829033661!5m2!1ses-419!2sco"
         width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"> </iframe>
 
@@ -121,7 +153,10 @@
 
     </div>
   </footer>
-</main>
+  </main>
+
+
 
   <body>
+
 </HTml>
