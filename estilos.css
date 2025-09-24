@@ -216,28 +216,22 @@ main {
     
   }
  
-.mision{
-margin-left: 00px;
-justify-content: center;
-margin-right: 500px;
 
-width: 800px; height: 480px;
-left: -500px;
-}
-
-.vision{
-margin-left: 500px;
-justify-content: center;
-margin-right: 500px;
-
-width: 800px; height: 480px;
-}
-.video-container{
-margin-left: 500px;
-width: 800px;        /* Ancho fijo */
-height: 600px;
+.video-container {
 position: relative;
-left: -400px;   
+padding-bottom: 50%; /* Relación de aspecto 16:9 */
+height: 50px;
+overflow: hidden;
+width: 1300px;
+background: local;
+margin-left: 700px;
+}
+.video-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 40%;
+height: 40%;
 }
 
 .servicios{
@@ -297,4 +291,327 @@ margin-right: 500px;
 .titulos{
     color: #ff0800;
    
+}
+.grid {
+    margin-top: 120px;
+ 
+
+}
+.logo_empresa1{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.mision_y_vision{
+height: 800px;
+margin-left: 500px;
+margin-right: 400px;
+}
+
+
+
+/* From Uiverse.io by StealthWorm */ 
+.btn {
+    margin-left: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  overflow: hidden;
+  height: 3rem;
+  background-size: 300% 300%;
+  cursor: pointer;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+  transition: 0.5s;
+  animation: gradient_301 5s ease infinite;
+  border: double 4px transparent;
+  background-image: linear-gradient(#212121, #212121),
+    linear-gradient(
+      137.48deg,
+      #ffdb3b 10%,
+      #fe53bb 45%,
+      #8f51ea 67%,
+      #0044ff 87%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+#container-stars {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+}
+
+strong {
+  z-index: 2;
+  font-family: "Avalors Personal Use";
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 4px white;
+}
+
+#glow {
+  position: absolute;
+  display: flex;
+  width: 12rem;
+}
+
+.circle {
+  width: 100%;
+  height: 30px;
+  filter: blur(2rem);
+  animation: pulse_3011 4s infinite;
+  z-index: -1;
+}
+
+.circle:nth-of-type(1) {
+  background: rgba(254, 83, 186, 0.636);
+}
+
+.circle:nth-of-type(2) {
+  background: rgba(142, 81, 234, 0.704);
+}
+
+.btn:hover #container-stars {
+  z-index: 1;
+  background-color: #212121;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn:active {
+  border: double 4px #fe53bb;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  animation: none;
+}
+
+.btn:active .circle {
+  background: #fe53bb;
+}
+
+#stars {
+  position: relative;
+  background: transparent;
+  width: 200rem;
+  height: 200rem;
+}
+
+#stars::after {
+  content: "";
+  position: absolute;
+  top: -10rem;
+  left: -100rem;
+  width: 100%;
+  height: 100%;
+  animation: animStarRotate 90s linear infinite;
+}
+
+#stars::after {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+}
+
+#stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 170%;
+  height: 500%;
+  animation: animStar 60s linear infinite;
+}
+
+#stars::before {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+  opacity: 0.5;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-135rem);
+  }
+}
+
+@keyframes animStarRotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes gradient_301 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse_3011 {
+  0% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+
+/* From Uiverse.io by Lu2ovic */ 
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.3rem;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+.rating input {
+  display: none;
+}
+
+.rating label .svgOne {
+  stroke: #ccc;
+  fill: rgba(255, 217, 0, 0);
+  transition:
+    stroke 0.5s ease,
+    fill 0.5s ease;
+}
+
+.rating label .svgTwo {
+  position: absolute;
+  top: -1px;
+  fill: gold;
+  stroke: rgba(255, 217, 0, 0);
+  opacity: 0;
+  transition:
+    stroke 0.5s ease,
+    fill 0.5s ease,
+    opacity 0.5s ease;
+}
+
+.rating label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  transition: all 0.5s ease;
+}
+
+/* Étoiles sélectionnées ou survolées */
+.rating label:hover .svgOne,
+.rating label:hover ~ label .svgOne {
+  stroke: gold;
+}
+
+.rating input:checked ~ label .svgOne {
+  stroke: #cccccc00;
+}
+
+.rating input:checked ~ label .svgTwo {
+  transform: rotateX(0deg) rotateY(0deg) translateY(0px);
+  opacity: 1;
+  animation: displayStar 0.5s cubic-bezier(0.75, 0.41, 0.82, 1.2);
+}
+
+@keyframes displayStar {
+  0% {
+    transform: rotateX(100deg) rotateY(100deg) translateY(10px);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg) translateY(0px);
+  }
+}
+
+.ombre {
+  background: radial-gradient(
+    ellipse closest-side,
+    rgba(0, 0, 0, 0.24),
+    rgba(0, 0, 0, 0)
+  );
+  width: 30px;
+  height: 8px;
+  opacity: 0;
+  transition: opacity 0.6s ease 0.2s;
+}
+
+/* Étoiles sélectionnées ou survolées */
+.rating label:hover .ombre,
+.rating label:hover ~ label .ombre {
+  opacity: 0.3;
+}
+
+.rating input:checked ~ label .ombre {
+  opacity: 1;
+}
+
+/* Animation de secousse uniquement au hover */
+.rating label:hover .svgTwo:hover {
+  animation:
+    chackStar 0.6s ease-out,
+    displayStar none 1s;
+}
+
+@keyframes chackStar {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  80% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.Exp1{
+    text-align: justify;
+}
+.herramientas1 li {
+    text-align: left;
+
 }
